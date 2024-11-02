@@ -12,7 +12,9 @@ header {
     padding: 1em 0;
     text-align: center;
 }
-
+nav {
+    margin: 10px 0;
+}
 nav a {
     color: #fff;
     margin: 0 1em;
