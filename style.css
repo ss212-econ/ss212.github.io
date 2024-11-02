@@ -26,6 +26,7 @@ main {
 .content-wrapper {
     display: flex; 
     align-items: center; 
+    flex-direction: row-reverse;
     margin-bottom: 20px; 
 }
 .profile-img {
