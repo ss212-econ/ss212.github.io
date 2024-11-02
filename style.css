@@ -22,7 +22,19 @@ nav a {
 main {
     padding: 2em;
 }
-
+.content-wrapper {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+.profile-img {
+    width: 150px; 
+    height: auto;
+    margin-right: 20px;
+}
+.text-content {
+    flex: 1; 
+}
 footer {
     background: #333;
     color: #fff;
