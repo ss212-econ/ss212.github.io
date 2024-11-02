@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1;
 }
 
 header {
@@ -26,13 +26,13 @@ main {
 .content-wrapper {
     display: flex; 
     align-items: center; 
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin-bottom: 20px; 
 }
 .profile-img {
-    width: 150px; 
-    height: auto;
-    margin-right: 40px;
+    width: 120px; 
+    height: 200px;
+    margin-right: 25px;
 }
 .text-content {
     flex: 1; 
