@@ -47,6 +47,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between; /* Ensures space between content and bottom figure */
 }
 
 section {
@@ -70,8 +71,9 @@ footer {
 
 /* Figure styling to center the image at the bottom */
 .bottom-center {
-    margin-top: auto;
     text-align: center;
+    align-self: center; /* Ensures figure is centered horizontally */
+    margin-top: 20px;
 }
 
 .bottom-center img {
