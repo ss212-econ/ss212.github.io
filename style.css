@@ -32,21 +32,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-/* Centering the image and caption at the bottom */
-.bottom-center {
-    text-align: center; /* Center text inside the figure */
-    margin-top: 20px; /* Space above the figure */
-}
-
-.bottom-center img {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensures the image takes up space */
-    margin: 0 auto; /* Centers the image horizontally */
-}
-
-.bottom-center figcaption {
-    margin-top: 8px; /* Space above the caption */
-    font-style: italic; /* Italic style for caption */
-    color: #555; /* Slightly lighter color for caption */
-}
